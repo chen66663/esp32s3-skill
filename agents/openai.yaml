@@ -1,0 +1,7 @@
+interface:
+  display_name: "ESP32-S3 Skill"
+  short_description: "ESP32-S3 烧录与调试工具"
+  default_prompt: "使用 $esp32s3-skill 探测这个 ESP-IDF 工程，找到 ESP32-S3 设备端口，并安全地构建、烧录或调试。"
+
+policy:
+  allow_implicit_invocation: true
